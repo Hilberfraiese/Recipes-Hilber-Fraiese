@@ -1,0 +1,123 @@
+.content{
+  width: 100%;
+  height: 100%;
+}
+.flex-row{
+    display: flex;
+}
+.logo{
+    position: absolute;
+    left: 1.5%;
+    top: 1.5%;
+}
+.column1{
+    position: absolute;
+    width: 20%;
+    height: 944px;
+    left: 0px;
+    top: 80px;
+   
+}
+
+.column2{
+position: absolute;
+left: 30%;
+top: 80px;
+width:70%;  
+
+}
+
+.closeButton{
+position: absolute;
+margin-left: 90%;
+font-size: 20px;
+cursor: pointer;
+margin-top: 15px;
+}
+
+.fixed-action-btn {
+    position: fixed;
+    right: 23px;
+    bottom: 23px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 997;
+  
+  }
+
+  .btn-floating {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    background-color: #26a69a;
+    border-radius: 50%;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    cursor: pointer;
+    vertical-align: middle;
+    align-items: center;
+  }
+  
+  .btn-floating:hover {
+    background-color: #26a69a;
+  }
+  
+  .btn-floating:before {
+    border-radius: 0;
+  }
+  
+  .btn-floating.btn-large {
+    width: 56px;
+    height: 56px;
+    padding: 0;
+  }
+  
+  .btn-floating.btn-large.halfway-fab {
+    bottom: -28px;
+  }
+  
+  .btn-floating.btn-large i {
+    line-height: 56px;
+  } 
+
+  .material-icons {
+    -webkit-font-feature-settings: 'liga';
+       -moz-font-feature-settings: 'liga';
+            font-feature-settings: 'liga';
+  }
+
+  .btn-large i {
+    font-size: 1.6rem;
+    margin-left: 15px;
+  }  
+
+
+.sidebarT{
+  transition: all 5s linear;
+  position:fixed;
+  margin-right: 0;
+  margin-left: 80%;
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  z-index: 1;
+  border: black solid;
+}  
+
+.sidebarF{
+  transition: all 500ms linear;
+  position:fixed;
+  margin-right: 0;
+  margin-left: 100%;
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  z-index: 1;
+  border: black solid;
+}

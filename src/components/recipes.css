@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.title{
+    text-align: left;
+    color: #19191A;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.input-container{
+    display: flex;
+   
+}
+
+.input-search{
+ justify-content: left;
+ width: 490px;
+ height: 28px;
+ border-radius: 16px;
+ border: none;
+ background-color: rgb(233, 233, 233);
+}
+.selectContainer{
+    width:229px;
+    height: 48px;
+    border-radius: 16px;
+    margin-left: 26px;
+    margin-top: -5px;
+}
+
+.recipes-container > *{
+ box-shadow: -1px 1px 7px 0 px rgba(0,0,0, 0.75);
+ border-radius: 4px; 
+ padding: 10px;
+ text-align: left;  
+}
+
+.recipes-container{
+    display:flex;
+}
+
+.select{
+    left: 155px;
+    color:cadetblue;
+    background-color: cadetblue;
+    color-scheme: cadetblue;
+    
+    
+}
+
+

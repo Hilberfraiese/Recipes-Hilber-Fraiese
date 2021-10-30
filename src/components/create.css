@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.titleInput{
+margin-left: 15px;
+}
+.inputName {
+    border: 2px solid #54B5BA;
+    width:416px;
+    height:54px;
+    border-radius:4px;
+    margin-left: 15px;
+    resize: none;
+    font-family: 'Poppins';
+}
+.numIng{
+    font-family: 'Poppins';
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 40px;
+    color:grey;
+}
+.containerCreate{
+    text-align:left;
+    display: flex;
+    margin-top: 10px;
+}
+.inputIng{
+    font-family: 'Poppins';
+    border: 2px solid #54B5BA;
+    width: 340px;
+    height: 40px;
+    border-radius:4px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.inputTexta{
+    border: 2px solid #54B5BA;
+    height: 172px;
+    width: 416px;
+    border: 3px solid #54B5BA;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-left: 15px;
+    resize: none;
+    font-family: 'Poppins';
+   
+   
+}
+
+.material-icons {
+    -webkit-font-feature-settings: 'liga';
+       -moz-font-feature-settings: 'liga';
+            font-feature-settings: 'liga';
+  
+    font-size:x-large;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgba(175, 238, 238, 0);
+    border: none;
+  }
+
+
+.review{
+        width: 1.3em;
+        height: 1.3em;
+        margin-right:30px;
+        border-radius: 50%;
+        vertical-align: middle;
+        border: 1px solid #ddd;
+        outline: none;
+        cursor: pointer;
+}
+
+.numcheck{
+    margin-left: 15px;
+}
+
+.buttonCreate{
+    width: 120px;
+    height: 48px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: #B2B2B3;
+    margin-left: 65%;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.buttonCancel{
+    width: 120px;
+    height: 48px;
+    border-radius: 25px;
+    border: solid #0C969D;
+    color: #0C969D;
+    background-color: white;;
+   
+    margin-top: 15px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+
+.buttonUpdate{
+    width: 120px;
+    height: 48px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: #0C969D;
+    margin-left: 7%;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.closeButton{
+    font-size: 25px;
+    font-weight:bolder;
+}
+
+.contButton{
+    display: flex;
+    justify-content:center;
+    margin-left: 40%;
+}
