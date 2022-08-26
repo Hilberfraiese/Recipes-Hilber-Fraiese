@@ -32,9 +32,6 @@ function Main() {
     return (
         <div className="content">
         <div className = "flex-row"> 
-           <div className="logo">
-            <img src="./tinkin.png" />   
-           </div>
            <div className = "column1" >
             <img src="./salad.png" />
            </div>

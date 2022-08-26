@@ -15,14 +15,12 @@
     width: 20%;
     height: 944px;
     left: 0px;
-    top: 80px;
-   
 }
 
 .column2{
 position: absolute;
 left: 30%;
-top: 80px;
+top: 40px;
 width:70%;  
 
 }
